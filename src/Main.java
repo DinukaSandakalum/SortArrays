@@ -1,3 +1,4 @@
+import com.sortarray.Merge;
 import com.sortarray.MergeAndSort;
 
 import java.util.Arrays;
@@ -10,8 +11,12 @@ public class Main {
         int[] c = {6,-3,5};
 
         MergeAndSort mas = new MergeAndSort();
+        Merge m = new Merge();
 
-        System.out.println(Arrays.toString(mas.mergeAndSort(a,b,c)));
+        int[] mergedArray = m.mergeAndSort(a,b,c);
+
+        System.out.println("Merged Array = "+ Arrays.toString(mergedArray));
+        System.out.println("Sorted Array = "+ Arrays.toString(mas.Sort(mergedArray)));
 
     }
 }
