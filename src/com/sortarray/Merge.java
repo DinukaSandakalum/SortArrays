@@ -7,16 +7,14 @@ public class Merge {
     private int[] mergedArray;
 
     public int[] getMergedArray() {
-
         return mergedArray;
     }
 
     public void setMergedArray(int[] mergedArray) {
-
         this.mergedArray = mergedArray;
     }
 
-    public int[] mergeAndSort(int[] arr1, int[] arr2, int[] arr3){
+    public int[] merge(int[] arr1, int[] arr2, int[] arr3){
 
         mergedArray = new int[arr1.length+arr2.length+arr3.length];
 
