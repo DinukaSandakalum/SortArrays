@@ -16,7 +16,7 @@ public class Main {
         int[] mergedArray = m.mergeAndSort(a,b,c);
 
         System.out.println("Merged Array = "+ Arrays.toString(mergedArray));
-        System.out.println("Sorted Array = "+ Arrays.toString(mas.Sort(mergedArray)));
+        System.out.println("Sorted Array = "+ Arrays.toString(mas.MergeAndSort(mergedArray)));
 
     }
 }
